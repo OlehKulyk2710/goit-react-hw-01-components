@@ -4,10 +4,10 @@ import { FriendList } from 'components/FriendList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
 import css from './Aps.module.css';
 
-import user from '../../user.json';
-import data from '../../data.json';
-import friends from '../../friends.json';
-import transactions from '../../transactions.json';
+import user from '../../helper/user.json';
+import data from '../../helper/data.json';
+import friends from '../../helper/friends.json';
+import transactions from '../../helper/transactions.json';
 
 export const App = () => {
   const { username, tag, location, avatar, stats } = user;
